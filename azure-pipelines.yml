@@ -13,13 +13,8 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
--
 - task: CmdLine@2
   inputs:
     script: |
-      echo Write your commands here
-      
-      echo Hello world
-      
       javac add.java
       java add
